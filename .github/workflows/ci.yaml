@@ -1,0 +1,40 @@
+name: Go CI Workflow
+
+on:
+  push:
+    tags:
+      - v*
+    branches:
+      - master
+      - main
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  golangci:
+    name: lint
+    runs-on: ubuntu-latest
+    steps:
+    - name: Install Go
+      uses: actions/setup-go@v2
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Lint code
+      uses: golangci/golangci-lint-action@v2
+      with:
+        version: v3.1.0
+        only-new-issues: true
+  gobuild:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Install Go
+      uses: actions/setup-go@v2
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Build code
+      run: go build -v
+    - name: Test code
+      run: go test -v ./...

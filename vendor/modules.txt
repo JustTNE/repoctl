@@ -1,6 +1,19 @@
-# github.com/BurntSushi/toml v0.3.1
+# github.com/BurntSushi/toml v1.0.0
 ## explicit
 github.com/BurntSushi/toml
+github.com/BurntSushi/toml/internal
+# github.com/bketelsen/crypt v0.0.3-0.20200106085610-5cbc8cc4026c
+## explicit
+# github.com/coreos/bbolt v1.3.2
+## explicit
+# github.com/coreos/go-systemd v0.0.0-20190321100706-95778dfbb74e
+## explicit
+# github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f
+## explicit
+# github.com/dgrijalva/jwt-go v3.2.0+incompatible
+## explicit
+# github.com/gorilla/websocket v1.4.2
+## explicit
 # github.com/goulash/archive v1.3.2
 ## explicit
 github.com/goulash/archive
@@ -19,42 +32,73 @@ github.com/goulash/pr
 # github.com/goulash/xdg v1.0.0
 ## explicit
 github.com/goulash/xdg
+# github.com/grpc-ecosystem/go-grpc-middleware v1.0.0
+## explicit
+# github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
+## explicit
 # github.com/inconshreveable/mousetrap v1.0.0
 github.com/inconshreveable/mousetrap
-# github.com/klauspost/compress v1.10.10
+# github.com/jonboulle/clockwork v0.1.0
+## explicit
+# github.com/klauspost/compress v1.15.0
+## explicit
+github.com/klauspost/compress
 github.com/klauspost/compress/fse
 github.com/klauspost/compress/huff0
-github.com/klauspost/compress/snappy
+github.com/klauspost/compress/internal/snapref
 github.com/klauspost/compress/zstd
 github.com/klauspost/compress/zstd/internal/xxhash
-# github.com/spf13/cobra v1.0.1-0.20200805153641-96dc55577faf
+# github.com/prometheus/tsdb v0.7.1
+## explicit
+# github.com/shurcooL/sanitized_anchor_name v1.0.0
+## explicit
+# github.com/smartystreets/goconvey v1.6.4
+## explicit
+# github.com/soheilhy/cmux v0.1.4
+## explicit
+# github.com/spf13/cobra v1.3.0
 ## explicit
 github.com/spf13/cobra
 # github.com/spf13/pflag v1.0.5
 github.com/spf13/pflag
-# github.com/ulikunitz/xz v0.5.7
+# github.com/tmc/grpc-websocket-proxy v0.0.0-20190109142713-0ad062ec5ee5
+## explicit
+# github.com/ulikunitz/xz v0.5.10
+## explicit
 github.com/ulikunitz/xz
 github.com/ulikunitz/xz/internal/hash
 github.com/ulikunitz/xz/internal/xlog
 github.com/ulikunitz/xz/lzma
-# golang.org/x/crypto v0.0.0-20200728195943-123391ffb6de
+# github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2
+## explicit
+# go.etcd.io/bbolt v1.3.2
+## explicit
+# golang.org/x/crypto v0.0.0-20220214200702-86341886e292
+## explicit
 golang.org/x/crypto/ssh/terminal
-# golang.org/x/sys v0.0.0-20190624142023-c5567b49c5d0
+# golang.org/x/sys v0.0.0-20220227234510-4e6760a101f9
+## explicit
+golang.org/x/sys/internal/unsafeheader
+golang.org/x/sys/plan9
 golang.org/x/sys/unix
 golang.org/x/sys/windows
-# gonum.org/v1/gonum v0.7.0
+# golang.org/x/term v0.0.0-20210927222741-03fcf44c2211
+## explicit
+golang.org/x/term
+# gonum.org/v1/gonum v0.9.3
 ## explicit
 gonum.org/v1/gonum/blas
 gonum.org/v1/gonum/blas/blas64
 gonum.org/v1/gonum/blas/cblas128
 gonum.org/v1/gonum/blas/gonum
 gonum.org/v1/gonum/floats
+gonum.org/v1/gonum/floats/scalar
 gonum.org/v1/gonum/graph
 gonum.org/v1/gonum/graph/internal/linear
 gonum.org/v1/gonum/graph/internal/ordered
 gonum.org/v1/gonum/graph/internal/set
-gonum.org/v1/gonum/graph/internal/uid
 gonum.org/v1/gonum/graph/iterator
+gonum.org/v1/gonum/graph/set/uid
 gonum.org/v1/gonum/graph/simple
 gonum.org/v1/gonum/graph/topo
 gonum.org/v1/gonum/graph/traverse
@@ -68,3 +112,5 @@ gonum.org/v1/gonum/lapack
 gonum.org/v1/gonum/lapack/gonum
 gonum.org/v1/gonum/lapack/lapack64
 gonum.org/v1/gonum/mat
+# gopkg.in/resty.v1 v1.12.0
+## explicit
